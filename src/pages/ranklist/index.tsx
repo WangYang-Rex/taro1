@@ -30,7 +30,7 @@ function Ranklist (props: any) {
   const getList = async () => {
     const res: any = await Request({ // Taro.request({
       method: 'POST',
-      url: 'http://log.html-js.site/rank/list.rjson',
+      url: 'https://log.html-js.site/rank/list.rjson',
       data: {
         page: pageRef.current.page,
         pageSize: pageRef.current.pageSize,

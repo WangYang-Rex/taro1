@@ -1,3 +1,8 @@
+// * {
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
 .main {
   height: 100%;
   width: 100%;
@@ -93,7 +98,17 @@
   -webkit-flex: 4;
   flex: 4;
 }
-
+.t-center, .center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
 .t-omit, .t-omit2, .t-omit3, .t-omit4, .t-omit5 {
   display: -webkit-box;
   overflow: hidden;
